@@ -2,19 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>CIS224 Project</title>
+      <title>CIS224 Final Project</title>
     <link href="styles.css" rel="stylesheet">
     <script src="scripts.js"></script>
   </head>
   
   <body>
-    <h1>CIS224 Project</h1>
+  <h1>CIS224 Final Project</h1>
     <form action="process.php" method="GET">
-        <label for="fullname">Name</label>
-        <input type="text" id="fullname" name="fullname">
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email">
-        <input type="submit" value="Send a message">
+        <div>
+            <label for="fullname">Name</label>
+            <input id="fullname" name="fullname" type="text">
+        </div>
+
+        <div>
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email">
+        </div>
+
+        <div>
+            <input type="submit" value="Send a message">
+        </div>
     </form>
   </body>
 </html>
